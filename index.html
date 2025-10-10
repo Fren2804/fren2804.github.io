@@ -10,9 +10,15 @@
 
 <body class="min-h-screen bg-zinc-950 text-zinc-100 overflow-x-hidden">
   <img src="assets/gifs/fondo5.gif" alt="Decoración"
+    class="fixed inset-y-0 left-0 w-[10vw] h-full object-cover object-[20%_center] opacity-70 pointer-events-none z-0" />
+  <img src="assets/gifs/fondo5.gif" alt="Decoración"
+      class="fixed inset-y-0 right-0 w-[10vw] h-full object-cover object-[80%_center] opacity-70 pointer-events-none z-0" />
+  <!-- 
+  <img src="assets/gifs/fondo5.gif" alt="Decoración"
     class="fixed inset-y-0 left-0 w-[10vw] h-full object-cover opacity-70 pointer-events-none z-0" />
   <img src="assets/gifs/fondo5.gif" alt="Decoración"
     class="fixed inset-y-0 right-0 w-[10vw] h-full object-cover opacity-70 pointer-events-none z-0" />
+  -->
   <section class="relative z-10 w-[80%] mx-auto min-h-screen flex flex-col">
     <div class="flex justify-evenly text-xs text-white p-1">
       <a href="mailto:franciscomoreno280499@gmail.com"
@@ -44,8 +50,6 @@
       </a>
 
     </div>
-
-  <!-- Línea decorativa -->
   <hr class="w-[95%] mx-auto my-1 border-zinc-300" />
 
     <header class="flex flex-row-reverse justify-center items-center text-center p-4 gap-4 pl-8">
@@ -93,8 +97,38 @@
         <p class="text-sm text-zinc-400 mt-1">Descripción breve.</p>
       </a>
     </main>
+    <hr class="w-[95%] mx-auto my-1 border-zinc-300" />
+    <div class="flex justify-evenly text-xs text-white p-1">
+      <a href="mailto:franciscomoreno280499@gmail.com"
+        class="group flex items-center gap-2 no-underline hover:text-red-400 transition duration-300">
+        <img src="assets/img/gmail_w.png"
+            class="w-3 h-3 group-hover:brightness-150 transition duration-300"
+            alt="Gmail" />
+        <span class="transition duration-300 group-hover:drop-shadow-[0_0_6px_rgba(255,80,80,0.8)]">
+          franciscomoreno280499@gmail.com
+        </span>
+      </a>
+      <a href="https://github.com/Fren2804" target="_blank"
+        class="group flex items-center gap-2 no-underline hover:text-gray-300 transition duration-300">
+        <img src="assets/img/github_w.png"
+            class="w-3 h-3 group-hover:brightness-150 transition duration-300"
+            alt="GitHub" />
+        <span class="transition duration-300 group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)]">
+          github.com/Fren2804
+        </span>
+      </a>
+      <a href="https://www.linkedin.com/in/francisomorenodelacruz" target="_blank"
+        class="group flex items-center gap-2 no-underline hover:text-blue-400 transition duration-300">
+        <img src="assets/img/linkedin_w.png"
+            class="w-3 h-3 group-hover:brightness-150 transition duration-300"
+            alt="LinkedIn" />
+        <span class="transition duration-300 group-hover:drop-shadow-[0_0_6px_rgba(80,150,255,0.8)]">
+          linkedin.com/in/francisomorenodelacruz
+        </span>
+      </a>
+    </div>
   </section>
-
+<script src="script.js"></script>
 </body>
 
 </html>

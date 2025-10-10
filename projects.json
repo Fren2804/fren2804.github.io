@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Raycaster C con MLX42",
+    "description": "Motor con raycasting, input por delta time.",
+    "repo": "https://github.com/fren2804/cub3d",
+    "image": "assets/fotos/cub3d.webp",
+    "tags": ["C", "Raycasting", "MLX42"],
+    "featured": true
+  }
+]
