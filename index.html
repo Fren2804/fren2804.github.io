@@ -10,9 +10,15 @@
 
 <body class="min-h-screen bg-zinc-950 text-zinc-100 overflow-x-hidden">
   <img src="assets/gifs/fondo5.gif" alt="Decoración"
+    class="fixed inset-y-0 left-0 w-[10vw] h-full object-cover object-[20%_center] opacity-70 pointer-events-none z-0" />
+  <img src="assets/gifs/fondo5.gif" alt="Decoración"
+      class="fixed inset-y-0 right-0 w-[10vw] h-full object-cover object-[80%_center] opacity-70 pointer-events-none z-0" />
+  <!-- 
+  <img src="assets/gifs/fondo5.gif" alt="Decoración"
     class="fixed inset-y-0 left-0 w-[10vw] h-full object-cover opacity-70 pointer-events-none z-0" />
   <img src="assets/gifs/fondo5.gif" alt="Decoración"
     class="fixed inset-y-0 right-0 w-[10vw] h-full object-cover opacity-70 pointer-events-none z-0" />
+  -->
   <section class="relative z-10 w-[80%] mx-auto min-h-screen flex flex-col">
     <div class="flex justify-evenly text-xs text-white p-1">
       <a href="mailto:franciscomoreno280499@gmail.com"
@@ -44,9 +50,7 @@
       </a>
 
     </div>
-
-  <!-- Línea decorativa -->
-  <hr class="w-[95%] mx-auto my-1 border-zinc-300" />
+    <hr class="w-[95%] mx-auto my-1 border-zinc-300" />
 
     <header class="flex flex-row-reverse justify-center items-center text-center p-4 gap-4 pl-8">
       <div class="ml-8">
@@ -66,11 +70,8 @@
           class="absolute inset-0 w-72 h-72 m-auto rounded-full border-4 border-white shadow-xl" />
       </div>
     </header>
-
+    <!-- 
     <section class="relative min-h-screen flex items-center justify-center bg-zinc-950 overflow-hidden">
-      <!-- Columna izquierda -->
-
-      <!-- Contenido -->
       <div class="relative z-10 max-w-3xl text-center px-6">
         <h1 class="text-5xl font-bold text-white">¡Hola! Soy Fren</h1>
         <p class="mt-4 text-lg text-zinc-300">C/C++, videojuegos y gráficos</p>
@@ -79,22 +80,106 @@
           Ver proyectos
         </a>
       </div>
-    </section>
-
-    <main class="max-w-4xl mx-auto p-6 grid gap-4 sm:grid-cols-2">
-      <a class="block rounded-xl border border-zinc-800 p-5 hover:border-zinc-600"
-        href="https://github.com/fren2804/proyecto1">
-        <h2 class="text-xl font-semibold">Proyecto 1</h2>
-        <p class="text-sm text-zinc-400 mt-1">Descripción breve.</p>
+    </section>-->
+    <!-- Navegacion cronologia -->
+    <nav class="flex flex-row justify-center items-center gap-4 p-4 bg-zinc-900 text-zinc-100 rounded-lg shadow-md">
+      <a href="#mi-persona"
+        class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 transition-colors rounded-md shadow text-sm font-medium">
+        Mi persona
       </a>
-      <a class="block rounded-xl border border-zinc-800 p-5 hover:border-zinc-600"
-        href="https://github.com/fren2804/proyecto2">
-        <h2 class="text-xl font-semibold">Proyecto 2</h2>
-        <p class="text-sm text-zinc-400 mt-1">Descripción breve.</p>
+      <h1 id="cronologia" class="text-2xl font-bold uppercase tracking-wide text-zinc-300">
+        Cronología
+      </h1>
+      <a href="#mi-camino"
+        class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 transition-colors rounded-md shadow text-sm font-medium">
+        Mi camino
+      </a>
+    </nav>
+    <main id="proyects" class="max-w-4xl mx-auto p-6 grid gap-4 sm:grid-cols-1">
+      <a href="#" class="group block rounded-xl border border-zinc-800 p-5 hover:border-zinc-600 transition-all duration-200 bg-zinc-900/50">
+        <div class="flex gap-4">
+          <div style="width: 35%;">
+            <img src="assets/img/profile1.png" alt="Captura de pantalla del proyecto"
+                class="w-full h-auto rounded-lg border border-zinc-700 object-cover" />
+          </div>
+          <div class="flex flex-col items-center" style="width: 65%;">
+            <div class="flex flex-col items-center">
+              <h2 class="text-xl font-bold text-zinc-100" style="padding: 0px 4px 4px 20px;">Cub3D - <span class="text-zinc-400">Noviembre 2025</span></h2>
+            </div>
+            <hr class="w-[95%] border-zinc-400">
+            <div class="text-sm text-zinc-300 space-y-1 p-4">
+              <div class="flex justify-evenly">
+                <p><strong>Lenguaje:</strong> C</p>
+                <p><strong>Frameworks:</strong> MLX42</p>
+              </div>
+              <p class="text-zinc-400">Descripción del proyecto, clara y concisa para que el lector entienda el objetivo.g fd fdg fd gfd hgfhd fgd hfg dfhg ghfh hfg dhgf dfgs dfgs dgfsd sgfd sgdf sgfdsfdg sgffdsfdsfgdsfdsfdsgfd</p>
+            </div>
+          </div>
+        </div>
       </a>
     </main>
-  </section>
+    <!-- Navegacion Mi persona -->
+    <nav class="flex flex-row justify-center items-center gap-4 p-4 bg-zinc-900 text-zinc-100 rounded-lg shadow-md">
+      <a href="#cronologia"
+        class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 transition-colors rounded-md shadow text-sm font-medium">
+        Cronología
+      </a>
+      <h1 id="mi-persona" class="text-2xl font-bold uppercase tracking-wide text-zinc-300">
+        Mi persona
+      </h1>
+      <a href="#mi-camino"
+        class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 transition-colors rounded-md shadow text-sm font-medium">
+        Mi camino
+      </a>
+    </nav>
+    <!-- Navegacion Mi camino -->
+    <nav class="flex flex-row justify-center items-center gap-4 p-4 bg-zinc-900 text-zinc-100 rounded-lg shadow-md">
+      <a href="#cronologia"
+        class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 transition-colors rounded-md shadow text-sm font-medium">
+        Cronología
+      </a>
+      <h1 id="mi-camino" class="text-2xl font-bold uppercase tracking-wide text-zinc-300">
+        Mi camino
+      </h1>
+      <a href="#mi-persona"
+        class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 transition-colors rounded-md shadow text-sm font-medium">
+        Mi persona
+      </a>
+    </nav>
 
+    <hr class="w-[95%] mx-auto my-1 border-zinc-300" />
+    <!-- Abajo links-->
+    <div class="flex justify-evenly text-xs text-white p-1">
+      <a href="mailto:franciscomoreno280499@gmail.com"
+        class="group flex items-center gap-2 no-underline hover:text-red-400 transition duration-300">
+        <img src="assets/img/gmail_w.png"
+            class="w-3 h-3 group-hover:brightness-150 transition duration-300"
+            alt="Gmail" />
+        <span class="transition duration-300 group-hover:drop-shadow-[0_0_6px_rgba(255,80,80,0.8)]">
+          franciscomoreno280499@gmail.com
+        </span>
+      </a>
+      <a href="https://github.com/Fren2804" target="_blank"
+        class="group flex items-center gap-2 no-underline hover:text-gray-300 transition duration-300">
+        <img src="assets/img/github_w.png"
+            class="w-3 h-3 group-hover:brightness-150 transition duration-300"
+            alt="GitHub" />
+        <span class="transition duration-300 group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)]">
+          github.com/Fren2804
+        </span>
+      </a>
+      <a href="https://www.linkedin.com/in/francisomorenodelacruz" target="_blank"
+        class="group flex items-center gap-2 no-underline hover:text-blue-400 transition duration-300">
+        <img src="assets/img/linkedin_w.png"
+            class="w-3 h-3 group-hover:brightness-150 transition duration-300"
+            alt="LinkedIn" />
+        <span class="transition duration-300 group-hover:drop-shadow-[0_0_6px_rgba(80,150,255,0.8)]">
+          linkedin.com/in/francisomorenodelacruz
+        </span>
+      </a>
+    </div>
+  </section>
+<script src="script.js"></script>
 </body>
 
 </html>
