@@ -11,15 +11,15 @@ loadProjects();*/
 const PROJECTS_URL = "projects.json";
 let i = 0;
 
-function impar(card, project)
+function par(card, project)
 {
   card.innerHTML = `
   <div class="flex flex-row-reverse gap-4">
-    <div style="width: 35%;">
+    <div style="width: 40%;">
       <img src=${project.image} alt="Captura de pantalla del proyecto"
           class="w-full h-auto rounded-lg border border-zinc-700 object-cover" />
     </div>
-    <div class="flex flex-col items-center" style="width: 65%;">
+    <div class="flex flex-col items-center" style="width: 60%;">
       <div>
         <h2 class="text-xl font-bold text-zinc-100" style="padding: 0px 4px 4px 20px;">${project.title} - <span class="text-zinc-400">${project.date}</span></h2>
       </div>
@@ -34,10 +34,9 @@ function impar(card, project)
     </div>
   </div>
   `;
-  
 }
 
-function par(card, project)
+function impar(card, project)
 {
   card.innerHTML = `
   <div class="flex gap-4">
@@ -60,7 +59,6 @@ function par(card, project)
     </div>
   </div>
   `;
-  
 }
 
 
