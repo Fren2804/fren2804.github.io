@@ -7,31 +7,106 @@
     "repo": "https://github.com/fren2804/cub3d",
     "image": "assets/img/profile1.png",
     "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
-    "date": "Octubre 2025",
-    "featured": true
+    "date": "Septiembre 2025"
   },
   {
-    "title": "Raycaster C con MLX42",
-    "description": "Motor con raycasting, input por delta time.",
+    "title": "Cub3D",
+    "languaje": "Python",
+    "framework": "Selenium, Pyautogui",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
     "repo": "https://github.com/fren2804/cub3d",
     "image": "assets/img/profile1.png",
-    "tags": ["C", "Raycasting", "MLX42"],
-    "featured": true
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Julio 2025"
   },
   {
-    "title": "Raycaster C con MLX42",
-    "description": "Motor con raycasting, input por delta time.",
+    "title": "Philosophers",
+    "languaje": "C",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
     "repo": "https://github.com/fren2804/cub3d",
     "image": "assets/img/profile1.png",
-    "tags": ["C", "Raycasting", "MLX42"],
-    "featured": true
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
   },
   {
-    "title": "Raycaster C con MLX42",
-    "description": "Motor con raycasting, input por delta time.",
+    "title": "Minishell",
+    "languaje": "C",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
     "repo": "https://github.com/fren2804/cub3d",
     "image": "assets/img/profile1.png",
-    "tags": ["C", "Raycasting", "MLX42"],
-    "featured": true
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
+  },
+  {
+    "title": "Tester Pipex 42",
+    "languaje": "Shell",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
+    "repo": "https://github.com/fren2804/cub3d",
+    "image": "assets/img/profile1.png",
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
+  },
+  {
+    "title": "Pipex",
+    "languaje": "C",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
+    "repo": "https://github.com/fren2804/cub3d",
+    "image": "assets/img/profile1.png",
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
+  },
+  {
+    "title": "FDF",
+    "languaje": "C",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
+    "repo": "https://github.com/fren2804/cub3d",
+    "image": "assets/img/profile1.png",
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
+  },
+  {
+    "title": "Push Swap",
+    "languaje": "C",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
+    "repo": "https://github.com/fren2804/cub3d",
+    "image": "assets/img/profile1.png",
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
+  },
+  {
+    "title": "Printf",
+    "languaje": "C",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
+    "repo": "https://github.com/fren2804/cub3d",
+    "image": "assets/img/profile1.png",
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
+  },
+  {
+    "title": "Get Net Line",
+    "languaje": "C",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
+    "repo": "https://github.com/fren2804/cub3d",
+    "image": "assets/img/profile1.png",
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
+  },
+  {
+    "title": "Libft",
+    "languaje": "C",
+    "framework": "None",
+    "description": "Este proyecto, es un proyecto <strong>Autodidacta</strong>. Donde teníamos que simular el raycasting de wolfestein 3D.",
+    "repo": "https://github.com/fren2804/cub3d",
+    "image": "assets/img/profile1.png",
+    "tags": ["Madrid 42", "C", "Raycasting", "MLX42"],
+    "date": "Mayo 2025"
   }
 ]
