@@ -15,7 +15,7 @@ export const t = {
     projects: { es: "Proyectos", en: "Projects" },
   },
   hero: {
-    role: { es: "Desarrollador Backend", en: "Backend Developer" },
+    role: { es: "Ingeniero de Software", en: "Software Engineer" },
     tagline: { es: "Construyendo el futuro con código limpio y arquitecturas escalables. Especialista en React, Node.js y tecnologías modernas.", en: "Building the future with clean code and scalable architectures. Specialist in React, Node.js and modern technologies." },
     fileCV: { es: "/cv/Francisco_Moreno_CV_es.pdf", en: "/cv/Francisco_Moreno_CV_en.pdf" },
     downloadCV: { es: "Descargar CV", en: "Download CV" },
@@ -27,13 +27,13 @@ export const t = {
   },
   about: {
     cmd: { es: "$ cat about.txt", en: "$ cat about.txt" },
-    p1: { es: "Soy desarrollador backend con conocimientos en C, C++, Python, SQL y entornos Unix/Linux. Me gusta construir soluciones sólidas desde la base, entendiendo cómo funcionan los sistemas por dentro y escribiendo código claro, eficiente y mantenible.", en: "I am a backend developer with knowledge of C, C++, Python, SQL and Unix/Linux environments. I enjoy building solid solutions from the ground up, understanding how systems work under the hood, and writing clear, efficient and maintainable code." },
+    p1: { es: "Soy ingeniero de software con conocimientos en C, C++, Python, SQL y entornos Unix/Linux. Me gusta construir soluciones sólidas desde la base, entendiendo cómo funcionan los sistemas por dentro y escribiendo código claro, eficiente y mantenible.", en: "I am a software engineer with knowledge of C, C++, Python, SQL and Unix/Linux environments. I enjoy building solid solutions from the ground up, understanding how systems work under the hood, and writing clear, efficient and maintainable code." },
     p2: { es: "He trabajado en proyectos técnicos como minishell, IRC y algoritmos, aplicando conceptos de programación de sistemas, estructuras de datos, comunicación entre procesos y resolución de problemas. También tengo conocimientos de GitHub y Docker para gestionar código, colaborar y trabajar en entornos reproducibles.", en: "I have worked on technical projects such as minishell, IRC and algorithms, applying concepts of systems programming, data structures, inter-process communication and problem solving. I also have knowledge of GitHub and Docker for managing code, collaborating and working in reproducible environments." },
     p3: { es: "Cuando no estoy programando, sigo aprendiendo nuevas tecnologías, mejorando mis proyectos y explorando ideas relacionadas con herramientas para desarrolladores, automatización y aplicaciones con impacto real.", en: "When I am not coding, I keep learning new technologies, improving my projects and exploring ideas related to developer tools, automation and real-world applications." },
     card1: {
       title: {
-        es: "Desarrollador Backend",
-        en: "Backend Developer"
+        es: "Ingeniero de Software",
+        en: "Software Engineer"
       },
       content: {
         es: "Desarrollo backend con C, C++, Python y SQL",
@@ -42,7 +42,7 @@ export const t = {
     },
     card2: {
       title: {
-        es: "Resolutor de Problemas",
+        es: "Resolutivo de Problemas",
         en: "Problem Solver"
       },
       content: {
