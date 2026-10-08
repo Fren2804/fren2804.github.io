@@ -15,7 +15,7 @@ export const t = {
     projects: { es: "Proyectos", en: "Projects" },
   },
   hero: {
-    role: { es: "Ingeniero de Software", en: "Software Engineer" },
+    role: { es: "Desarollador Backend", en: "Backend Developer" },
     tagline: { es: "Construyendo el futuro con código limpio y arquitecturas escalables. Especialista en React, Node.js y tecnologías modernas.", en: "Building the future with clean code and scalable architectures. Specialist in React, Node.js and modern technologies." },
     fileCV: { es: "/cv/Francisco_Moreno_CV_es.pdf", en: "/cv/Francisco_Moreno_CV_en.pdf" },
     downloadCV: { es: "Descargar CV", en: "Download CV" },
@@ -27,13 +27,13 @@ export const t = {
   },
   about: {
     cmd: { es: "$ cat about.txt", en: "$ cat about.txt" },
-    p1: { es: "Soy ingeniero de software con conocimientos en C, C++, Python, SQL y entornos Unix/Linux. Me gusta construir soluciones sólidas desde la base, entendiendo cómo funcionan los sistemas por dentro y escribiendo código claro, eficiente y mantenible.", en: "I am a software engineer with knowledge of C, C++, Python, SQL and Unix/Linux environments. I enjoy building solid solutions from the ground up, understanding how systems work under the hood, and writing clear, efficient and maintainable code." },
+    p1: { es: "Soy desarollador backend con conocimientos en C, C++, Python, SQL y entornos Unix/Linux. Me gusta construir soluciones sólidas desde la base, entendiendo cómo funcionan los sistemas por dentro y escribiendo código claro, eficiente y mantenible.", en: "I am a backend developer with knowledge of C, C++, Python, SQL and Unix/Linux environments. I enjoy building solid solutions from the ground up, understanding how systems work under the hood, and writing clear, efficient and maintainable code." },
     p2: { es: "He trabajado en proyectos técnicos como minishell, IRC y algoritmos, aplicando conceptos de programación de sistemas, estructuras de datos, comunicación entre procesos y resolución de problemas. También tengo conocimientos de GitHub y Docker para gestionar código, colaborar y trabajar en entornos reproducibles.", en: "I have worked on technical projects such as minishell, IRC and algorithms, applying concepts of systems programming, data structures, inter-process communication and problem solving. I also have knowledge of GitHub and Docker for managing code, collaborating and working in reproducible environments." },
     p3: { es: "Cuando no estoy programando, sigo aprendiendo nuevas tecnologías, mejorando mis proyectos y explorando ideas relacionadas con herramientas para desarrolladores, automatización y aplicaciones con impacto real.", en: "When I am not coding, I keep learning new technologies, improving my projects and exploring ideas related to developer tools, automation and real-world applications." },
     card1: {
       title: {
-        es: "Ingeniero de Software",
-        en: "Software Engineer"
+        es: "Desarollador Backend",
+        en: "Backend Developer"
       },
       content: {
         es: "Desarrollo backend con C, C++, Python y SQL",
@@ -259,8 +259,8 @@ export const t = {
     entries: [
       {
         title: {
-          es: "Desarrollador de Software Junior",
-          en: "Junior Software Developer",
+          es: "Desarrollador Backend",
+          en: "Backend Developer",
         },
         company: {
           es: "Mirelia Digital Talent",
@@ -275,28 +275,71 @@ export const t = {
           en: "03/2024 - 08/2024",
         },
         desc: {
-          es: "Desarrollo y mantenimiento de soluciones digitales en una startup tecnológica, trabajando en lógica de aplicación, integración con bases de datos, depuración de errores y mejora de funcionalidades. Experiencia en un entorno profesional de desarrollo, utilizando control de versiones, SQL y herramientas de despliegue para construir soluciones mantenibles.",
-          en: "Development and maintenance of digital solutions in a technology startup, working on application logic, database integration, debugging and feature improvement. Experience in a professional development environment, using version control, SQL and deployment tools to build maintainable solutions.",
+          es: "Desarrollo de soluciones backend utilizando TypeScript, Prisma ORM y PostgreSQL. Diseño e implementación de APIs REST, endpoints, lógica de negocio y acceso a datos. Modelado de bases de datos y definición de relaciones mediante Prisma ORM. Configuración de entornos de desarrollo con Docker y gestión del código fuente mediante Git.",
+          en: "Development of backend solutions using TypeScript, Prisma ORM and PostgreSQL. Design and implementation of REST APIs, endpoints, business logic and data access. Database modeling and relationship definition using Prisma ORM. Development environment configuration with Docker and source code management using Git.",
+        },
+        tags: {
+          es: [
+            "TypeScript",
+            "Prisma ORM",
+            "PostgreSQL",
+            "REST API",
+            "Docker",
+            "Git",
+          ],
+          en: [
+            "TypeScript",
+            "Prisma ORM",
+            "PostgreSQL",
+            "REST API",
+            "Docker",
+            "Git",
+          ],
+        },
+      },
+      {
+        title: {
+          es: "Desarrollador de Software Autónomo",
+          en: "Freelance Software Developer",
+        },
+        company: {
+          es: "Autónomo",
+          en: "Self-employed",
+        },
+        location: {
+          es: "",
+          en: "",
+        },
+        period: {
+          es: "06/2025 - Actualidad",
+          en: "06/2025 - Present",
+        },
+        desc: {
+          es: "Desarrollo de proyectos de software utilizando Python, C++ y SQL. Implementación de un servidor de chat IRC en C++ mediante sockets, con gestión de conexiones simultáneas, canales y comandos. Desarrollo de una aplicación GPS en Python con procesamiento de datos geográficos y lógica de rutas. Implementación de un algoritmo para resolver Buscaminas mediante inferencia lógica y cálculo de probabilidades. Creación de una aplicación administrativa estilo Excel en Python, integrada con una base de datos SQL para consultar, editar y gestionar información.",
+          en: "Development of software projects using Python, C++ and SQL. Implementation of an IRC chat server in C++ using sockets, supporting concurrent connections, channels and commands. Development of a GPS application in Python featuring geographic data processing and route logic. Implementation of a Minesweeper-solving algorithm using logical inference and probability calculations. Creation of an Excel-like administrative application in Python, integrated with a SQL database for querying, editing and managing information.",
         },
         tags: {
           es: [
             "Python",
+            "C++",
             "SQL",
-            "Docker",
             "Git",
+            "Sockets",
             "TCP/IP",
-            "Estructuras de Datos",
+            "Algoritmos",
           ],
           en: [
             "Python",
+            "C++",
             "SQL",
-            "Docker",
             "Git",
+            "Sockets",
             "TCP/IP",
-            "Data Structures",
+            "Algorithms",
           ],
         },
       },
+
     ],
   },
   projects: {
@@ -649,8 +692,5 @@ export const t = {
         image: c
       },
     ],
-  },
-  footer: {
-    tagline: { es: "Desarrollador Full Stack", en: "Full Stack Developer" },
   },
 };
