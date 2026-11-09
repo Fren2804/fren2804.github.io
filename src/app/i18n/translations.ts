@@ -74,6 +74,7 @@ export const t = {
       es: "$ cat education.log",
       en: "$ cat education.log",
     },
+    viewCertificate: { es: "Ver certificado", en: "View certificate" },
 
     labels: {
       degree: { es: "Titulación", en: "Degree" },
@@ -82,6 +83,56 @@ export const t = {
     },
 
     entries: [
+      {
+        degree: {
+          es: "Python Associate",
+          en: "Python Associate",
+        },
+        institution: {
+          es: "DataCamp",
+          en: "DataCamp",
+        },
+        certificateUrl: "https://www.datacamp.com/certificate/PDEVA0011194588706",
+        period: {
+          es: "11/2026 - 11/2028",
+          en: "11/2026 - 11/2028",
+        },
+        type: "cert",
+        desc: {
+          es: "Certificación Python Associate obtenida en noviembre de 2026, con validez hasta noviembre de 2028.",
+          en: "Python Associate certification earned in November 2026, valid until November 2028.",
+        },
+        tags: {
+          es: ["Python"],
+          en: ["Python"],
+        },
+      },
+
+      {
+        degree: {
+          es: "SQL Associate",
+          en: "SQL Associate",
+        },
+        institution: {
+          es: "DataCamp",
+          en: "DataCamp",
+        },
+        certificateUrl: "https://www.datacamp.com/certificate/SQA0012593133885",
+        period: {
+          es: "11/2026 - 11/2028",
+          en: "11/2026 - 11/2028",
+        },
+        type: "cert",
+        desc: {
+          es: "Certificación SQL Associate obtenida en noviembre de 2026, con validez hasta noviembre de 2028.",
+          en: "SQL Associate certification earned in November 2026, valid until November 2028.",
+        },
+        tags: {
+          es: ["SQL"],
+          en: ["SQL"],
+        },
+      },
+
       {
         degree: {
           es: "Ingeniería de Software",

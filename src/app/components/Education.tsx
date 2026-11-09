@@ -1,4 +1,4 @@
-import { GraduationCap, Calendar, Award, ChevronRight } from "lucide-react";
+import { GraduationCap, Calendar, Award, ChevronRight, ExternalLink } from "lucide-react";
 import { useLang } from "../context/LangContext";
 import { t } from "../i18n/translations";
 
@@ -44,13 +44,15 @@ export function Education() {
                           {t.education.labels[item.type as keyof typeof t.education.labels][lang]}
                         </span>
                       </div>
-                      <div className="flex items-center gap-2 text-gray-300 mb-1">
-                        {item.type === "cert"
-                          ? <Award size={16} className="text-blue-400 shrink-0" />
-                          : <GraduationCap size={16} className="text-emerald-400 shrink-0" />
-                        }
-                        <span className="font-mono text-sm">{item.institution[lang]}</span>
-                      </div>
+                      {item.institution[lang] && (
+                        <div className="flex items-center gap-2 text-gray-300 mb-1">
+                          {item.type === "cert"
+                            ? <Award size={16} className="text-blue-400 shrink-0" />
+                            : <GraduationCap size={16} className="text-emerald-400 shrink-0" />
+                          }
+                          <span className="font-mono text-sm">{item.institution[lang]}</span>
+                        </div>
+                      )}
                     </div>
                     <div className="flex items-center gap-2 text-gray-400 font-mono text-sm shrink-0">
                       <Calendar size={16} />
@@ -71,6 +73,19 @@ export function Education() {
                       </span>
                     ))}
                   </div>
+
+                  {"certificateUrl" in item && item.certificateUrl && (
+                    <a
+                      href={item.certificateUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${t.education.viewCertificate[lang]}: ${item.degree[lang]}`}
+                      className="inline-flex items-center gap-2 mt-4 text-sm font-mono text-blue-400 hover:text-blue-300 underline underline-offset-4 rounded focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-400"
+                    >
+                      {t.education.viewCertificate[lang]}
+                      <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  )}
                 </div>
               </div>
             );
